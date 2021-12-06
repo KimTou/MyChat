@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyChat:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyChat_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyChat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/mysql-connector-java-5.1.38-bin.jar" />
+          <element id="library" level="project" name="web" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/activation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/javax.mail .jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/websocket-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/jackson-core-2.9.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/json-lib-2.1-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/jackson-databind-2.9.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/commons-beanutils-1.9.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/jackson-annotations-2.9.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/web/commons-collections-3.2.1-1.0.0.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MyChat/web/Web" />
+    </root>
+  </artifact>
+</component>
