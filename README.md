@@ -1,13 +1,14 @@
-# MyChat
-即时聊天系统（Web端）
+# MyChat（即时聊天系统）
 
 ### 技术选型
+
+Javaweb 项目，使用原生技术栈。
 
 * Java
 * MySQL
 * WebSocket
 
-### 用例图
+### 亮点
 
-![](https://gitee.com/KIMTOU/img/raw/master/20211210121116.png)
-
+* 手写 AOP 实现日志切面、注解参数校验。
+* 手写数据库线程池
